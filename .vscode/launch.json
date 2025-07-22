@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "Gustavo Fernandes"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "4-controle-de-fluxo_73429b3f",
+            "args": "Gustavo Fernandes" //Quando executar o programa, esse argumento será passado
+            //Ele considera "Gustavo" como primeiro argumento, após espaço o segundo argumento
+        }
+    ]
+}
