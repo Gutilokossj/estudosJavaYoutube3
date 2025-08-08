@@ -16,17 +16,17 @@ public class EstruturasSelecao {
 
         //Professora deu exemplos com if, else if, else e o Switch também, tudo comentado para anotações.
 
-        // if (opcao == 1) {
-        //     System.out.println("Obrigada por se inscrever!");
-        // } else if (opcao == 2){
-        //     System.out.println("Obrigada pelo like!");
-        // } else if (opcao == 3){
-        //     System.out.println("Obrigada por compartilhar!");
-        // } else if (opcao == 4) {
-        //     System.out.println("Obrigada por ativar as notificações!");
-        // } else {
-        //     System.out.println("Opção não suportada!");
-        // }
+        if (opcao == 1) {
+            System.out.println("Obrigada por se inscrever!");
+        } else if (opcao == 2){
+            System.out.println("Obrigada pelo like!");
+        } else if (opcao == 3){
+            System.out.println("Obrigada por compartilhar!");
+        } else if (opcao == 4) {
+            System.out.println("Obrigada por ativar as notificações!");
+        } else {
+            System.out.println("Opção não suportada!");
+        }
 
         //Refatoramos o switch para não termos tanta repetição de System.out.println
 
