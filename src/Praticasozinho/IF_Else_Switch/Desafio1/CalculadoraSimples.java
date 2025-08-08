@@ -12,6 +12,7 @@ public class CalculadoraSimples {
         CalculadoraSimples calculadoraSimples = new CalculadoraSimples();
         calculadoraSimples.mostrarMenu();
         int opcao = scanner.nextInt();
+        scanner.close();
         switch (opcao) {
             case 1:
                 System.out.println("Selecionada opção: Somar");
