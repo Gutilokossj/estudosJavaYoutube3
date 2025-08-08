@@ -6,7 +6,7 @@ public class App {
 
     //Acessando os argumentos, o valor do primeiro argumento é 
     //passado para a variável args[0]
-      System.out.println("Olá, " + args[0] + " " + args[1]);
+      //System.out.println("Olá, " + args[0] + " " + args[1]);
 
       //Ele considera "Gustavo" como primeiro argumento, após espaço o segundo argumento
       //Ele roda com base no meu arquivo launch.json
